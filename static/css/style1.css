@@ -1,0 +1,132 @@
+.html,
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: #3AAFA9;
+    color: #FEFFFF;
+    font-family: 'Oswald', 'sans-serif';
+    /* overflow: hidden; */
+
+}
+
+.navbar {
+    font-size: 250%;
+    font-family: 'Anton';
+    text-align: center;
+    justify-content: left;
+    padding: 2vh;
+    display: flex;
+}
+
+.home {
+    padding-top: 0%;
+    padding-left: 2%;
+    position: absolute;
+    z-index: 1;
+}
+
+.home button {
+    font-size: 8px;
+    padding: 0px 30px;
+    color: white;
+    background-color: #2B7A78;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+    font-family: "Oswald", "sans-serif";
+}
+
+.home a {
+    text-decoration: none;
+    color: #2B7A78;
+    padding: 2px 2px;
+}
+
+.home button:hover {
+    color: #2B7A78;
+    background-color: white;
+    font-size: 8.5px;
+}
+
+
+.container {
+    display: grid;
+    justify-content: right;
+    image-rendering: optimizeQuality;
+    position: relative;
+
+}
+
+.upload-file {
+    padding-top: 10%;
+}
+
+.upload-file input::-webkit-file-upload-button {
+    background-color: #2B7A78;
+    color: white;
+    border-radius: 25px;
+    padding: 5px 25px;
+    font-size: 16px;
+    font-family: "oswald";
+    border-style: none;
+    cursor: pointer;
+}
+
+.upload-file input::-webkit-file-upload-button:hover {
+    color: #2B7A78;
+    background-color: white;
+}
+
+.instructions {
+    padding-top: 8%;
+    padding-left: 1%;
+}
+
+.analyze {
+    color: rgb(255, 255, 255);
+    background-color: #DA8F98;
+    /* background-color: #AF3F40; */
+    border-style: none;
+    border-radius: 25px;
+    margin-top: 20%;
+    margin-left: 0%;
+    font-family: "Oswald";
+    font-size: 20px;
+    padding: 8px 25px;
+    cursor: pointer;
+
+}
+
+.analyze:hover {
+    background-color: #AF3A40;
+}
+
+.result {
+    padding: 300px 10px;
+    font-size: xx-large;
+}
+
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #002424 0%,
+            #2B7A78 20%);
+
+
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 10s linear infinite;
+    display: inline-block;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}

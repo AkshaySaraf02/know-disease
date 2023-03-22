@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KnowDisease</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css') }}">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald&display=swap');
+    </style>
+
+</head>
+
+<body>
+    <div class=" container">
+        <div class="navbar animate-charcter" style="font-family:'Anton', sans-serif;" ;>
+            KnowDisease
+            <!-- <span style="color: #2B7A78;; word-spacing: 0.01em; padding-left: 1vh;">
+                ML Powered Health Diagnostic
+            </span> -->
+        </div>
+        <div class="front-pg">
+            <img style="height: 20%;" src="static/css/bg1.png" alt="">
+            <div
+                style="position: absolute; color: #17252a; width: 60%; font-weight: bolder; padding: 8% 2%; font-size: 120%;">
+
+                <span class="q" style="color: #feffff; font-size:xxx-large;">
+                    What is KnowDisease?<br>
+                </span>
+                KnowDisease is a cutting-edge deep learning platform that is designed to revolutionize the way diseases
+                are diagnosed.Whether you are a healthcare professional or simply someone who wants to take control of
+                their health, KnowDisease is the go-to solution for fast, reliable, and accurate disease diagnosis.
+            </div>
+            <div class="about" style="position: absolute; padding: 20% 5%; width: 50%; font-size: xx-large;">
+                <ul style="list-style:disc; padding-right: 10%;font-size: large;">
+                    <li>Accuracy of over<span style="color: #ffffff;text-shadow: 2px 2px 5px #17252a ;"> 95%</span>
+                    </li>
+                    <li>Trained on <span style="color: #ffffff;text-shadow: 2px 2px 5px #17252a;"> Gigantic & Verified
+                            Datasets </span></li>
+                    <li>Currently supports <span style=" color: #ffffff;text-shadow: 2px 2px 5px #17252a;">3+
+                            Diseases</span> (More Soon!)</li>
+                </ul>
+            </div>
+            <div class="diagnose" style="position: absolute; padding: 30% 2%;font-size: xx-large;">Select the diagnosis:
+                <a href="/lungs"><button class="predict lungs">Lungs Tuberculosis</button></a>
+                <a href="/heart"><button class="predict heart">Heart Disease</button></a>
+                <a href="/kidney"><button class="predict kidney">Kidney Chronic
+                        Disease</button></a>
+
+            </div>
+        </div>
+</body>
+
+</html>

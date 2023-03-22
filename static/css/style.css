@@ -1,0 +1,151 @@
+.html,
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: #3AAFA9;
+    color: #FEFFFF;
+    font-family: 'Oswald', 'sans-serif';
+    overflow: hidden;
+
+}
+
+.navbar {
+    font-size: 250%;
+    font-family: 'Anton';
+    text-align: center;
+    justify-content: left;
+    padding: 2vh;
+    display: flex;
+    background: #c5c8c9
+}
+
+.front-pg {
+    display: grid;
+    justify-content: right;
+    image-rendering: optimizeQuality;
+    position: relative;
+}
+
+.predict {
+    border-radius: 25px;
+    background-color: #2B7A78;
+    border-style: none;
+    color: #FEFFFF;
+    height: 1%;
+    font-size: 17px;
+    font-family: 'Oswald', "sans-serif";
+    font-weight: lighter;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.diagnose a {
+    text-decoration: none;
+    margin-bottom: 20%;
+}
+
+.diagnose button {
+    padding: 2% 10%;
+    margin-top: 21px;
+}
+
+
+.predict:hover {
+    background-color: #ffffff;
+    color: #2B7A78;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1022px) {
+    .navbar {
+        display: block;
+    }
+
+    .about {
+        margin-top: 10%;
+    }
+
+    .front-pg {
+        margin-top: auto;
+        margin-bottom: 200px;
+
+    }
+
+    .diagnose {
+        margin-top: 20%;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 744px) {
+    .navbar {
+        display: block;
+        font-size: 150%;
+    }
+
+    .front-pg img {
+        display: none
+    }
+
+    .about {
+        margin-top: 18%;
+    }
+
+    .front-pg {
+        margin-top: auto;
+        margin-bottom: 300px;
+        font-size: small;
+        width: 100%;
+        padding-right: 1%;
+
+    }
+
+    .diagnose {
+        margin-top: 30%;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 613px) {
+    .about {
+        margin-top: 25%;
+    }
+
+    .front-pg {
+        margin-top: auto;
+        margin-bottom: 300px;
+        font-size: smaller;
+
+    }
+
+    .diagnose {
+        margin-top: 50%;
+        color: black;
+    }
+}
+
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #002424 0%,
+            #2B7A78 20%);
+
+
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 10s linear infinite;
+    display: inline-block;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
