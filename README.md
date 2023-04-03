@@ -43,10 +43,13 @@ pip install -r requirements.txt
 * To establish a connection between the application and a database to improve data caching and enable efficient retraining of the model.
 
 ## Technologies Used
-<p align="left" style= "padding-right:20px">
+<p align="left" style="display:flex; justify-content: space-between;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" width="90">
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="180">
-  <img src="https://cms-assets.tutsplus.com/uploads/users/30/posts/16037/preview_image/flask.png" width="150">
   <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" width="280">
   <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" width="280">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="150">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="150">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="150">
+  <img src="https://cms-assets.tutsplus.com/uploads/users/30/posts/16037/preview_image/flask.png" width="150">
 </p>
