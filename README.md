@@ -8,6 +8,7 @@
   * [Installation](#installation)
   * [To Do](#to-do)
   * [Technologies Used](#technologies-used)
+  * [LICENSE](#license)
 
 ## Overview
 KnowDisease is an web based application that utilizes machine learning technology to diagnose lung tuberculosis by analyzing X-rays as the input. It is built on a convolutional neural network (CNN) model and relies on powerful libraries such as Flask, TensorFlow, Keras, and SciKit Learn for its backend. For the frontend, KnowDisease employs HTML, CSS, and JavaScript. The classification model used by KnowDisease has been trained on a dataset consisting of over 1000 X-ray images.
@@ -62,3 +63,6 @@ pip install -r requirements.txt
   <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="150">
   <img src="https://cms-assets.tutsplus.com/uploads/users/30/posts/16037/preview_image/flask.png" width="150">
 </p>
+
+## LICENSE
+[GNU](LICENSE.md)
