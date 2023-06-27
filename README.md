@@ -36,11 +36,11 @@ Here is the operational demonstration of the application.
 ## Technical Aspect
 The app is built in 3 stages.
 
-1️⃣The model was trained on a dataset of over 1000 lung X-rays, consisting of both infected and normal cases, using the deep learning technique, convolutional neural networks (CNN).
+1️⃣  The model was trained on a dataset of over 1000 lung X-rays, consisting of both infected and normal cases, using the deep learning technique, convolutional neural networks (CNN).
 
-2️⃣The front end or user interface was developed using HTML and CSS, with a touch of JavaScript.
+2️⃣  The front end or user interface was developed using HTML and CSS, with a touch of JavaScript.
 
-3️⃣The front-end and back-end gets integrated, resulting in a fully functional app that can predict the presence of tuberculosis in the lungs.
+3️⃣  The front-end and back-end gets integrated, resulting in a fully functional app that can predict the presence of tuberculosis in the lungs.
 
 ## Installation
 Firstly Clone the repository locally, then install python version 3.11.2 and download the required libraries using the following command while being in the path of cloned repo.
