@@ -40,7 +40,7 @@ The app is built in 3 stages.
 
 2️⃣  The front end or user interface was developed using HTML and CSS, with a touch of JavaScript.
 
-3️⃣  The front-end and back-end gets integrated, resulting in a fully functional app that can predict the presence of tuberculosis in the lungs.
+3️⃣    The front-end and back-end gets integrated, resulting in a fully functional app that can predict the presence of tuberculosis in the lungs.
 
 ## Installation
 Firstly Clone the repository locally, then install python version 3.11.2 and download the required libraries using the following command while being in the path of cloned repo.
